@@ -1,0 +1,43 @@
+# Site settings
+title: A blog by statpng
+description: Statistical softwares or literature reviews for statistical genetics
+# baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://statpng.github.io/" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Kipoong Kim
+user_description: Statistician at Pusan National University
+email: kkp7700@gmail.com
+github_username:  statpng
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Import katex
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+#d
